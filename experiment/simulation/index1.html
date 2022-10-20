@@ -11,7 +11,7 @@
 <body>
 	<div class="box">
 		<div class="container1" style="position: absolute;">
-		<img src="images\Indian_Institute_of_Technology_Roorkee_logo.png" width="95px" height="95px" style="margin-left: 5px; float: left;" ><center><h2 >Virtual Labs IIT Roorkee<br>Electrical Measurements Laboratory<br></h2><h2 style="background-color: black;">Three Phase Power Measurement Using Two Wattmeter Method Under Balanced Load Condition</h2></center></div>
+		<img src="images\Indian_Institute_of_Technology_Roorkee_logo.png" width="95px" height="95px" style="margin-left: 5px; float: left;" ><center><h2 >Virtual Labs IIT Roorkee<br>Electrical Measurements Laboratory<br></h2><h2 style="background-color: black;">Three Phase Power Measurement Using Two Wattmeter Method Under UnBalanced Loads Condition</h2></center></div>
 	</h2></center></div>
 	 <!--instruction button-->
 	  <div class="dropdown" style="position:absolute;">
@@ -28,7 +28,7 @@
    <p>8.&nbsp; &nbsp; R,B,Yand N of Mcb - R,B,Y and N of Autotransformer.</p> 
    <b><p>STEP-II Click on "Check" Button.</p></b>
    <b><p>STEP-III Click on the MCB to Turn ON the circuit and Select the number of Bulbs from the Lamp Load.</p></b>
-   <b><p>STEP-IV For balanced load condition measured the values of wattmeters,ammeter and Voltmeter.</p></b>
+   <b><p>STEP-IV For unbalanced load condition measured the values of wattmeters,ammeter and Voltmeter.</p></b>
    <b><p>STEP-V Click "ADD" button to add the values to the Observation Table.</p></b>
    <b><p>STEP VI : Add different values to the Table by selecting different number of bulbs.</p></b>
    <b><p>STEP VII : Click on "PRINT" button to print the page.</p></b>
@@ -38,9 +38,9 @@
  <!--Formula-->
 <div class="formula">
 <h2>Formula</h2>
-<p>P<sub>3&Phi;</sub>=3V<sub>ph</sub>I<sub>ph</sub>Cos&Phi;.</p>
+<p>P3&Phi;=3V<sub>ph</sub>I<sub>ph</sub>Cos&Phi;.</p>
 <p>V<sub>ph</sub>=V<sub>L</sub>/&radic;<span style="text-decoration: overline">3.</span></p>
-<p>Where, &nbsp;P<sub>3&Phi;</sub>=Three phase power,V<sub>ph</sub>=Phase Voltage,</p>
+<p>Where, &nbsp;P3&Phi;=Three phase power,V<sub>ph</sub>=Phase Voltage,</p>
 <p>I<sub>ph</sub>=Phase current, V<sub>L</sub>=Line voltage,&Phi;=Phase angle.</p>
 </div>
 <!--table1 code-->
@@ -114,7 +114,7 @@
               
                  </div>
           </div>
-          <div id="auto"></div>
+   <div id="auto"></div>       
   <img src="images\knobs part 2.png" style="position:absolute; height:98px; width:164px; margin-left:10px; margin-top:310px;">
   <img src="images\knobs part 1.png" class="rotate90" id="knob" style="position:absolute; height:115px; width:115px; margin-top:328px; margin-left:33px;">
   <div id="at"></div><div class="text" style="position:absolute;"><h3>Autotransformer</h3></div>
@@ -139,15 +139,14 @@
                         </svg>        
                    </div>
 
-  <select id="select_1" class="gwd-select-li9t" disabled="true" ><sup >No. Of Bulbs</sup>
+  <select id="select_1" class="gwd-select-li9t" disabled="true"><sup >No. Of Bulbs</sup>
           <option value="0" disabled selected>Bulbs</option>
           <option value="1">3</option>
           <option value="2">6</option>
           <option value="3">9</option>
           <option value="4">12</option>
       </select>
-  <!--bulb code-->
-  <div id="load" style="position:absolute"><h3>Balanced Load</h3></div>
+  <!--bulb code--><div id="load" style="position:absolute;"><h3>Unbalanced loads</h3></div>
    <img src="images\board.png" width="300px" height="120px"  class="board" style="position:absolute;">
      <img src="images\bulboff.png" style="height:55px;width:45px; position:absolute;" class="bulb1" id="bulb1" disabled="true">
        <img src="images\bulboff.png" style="height:55px;width:45px; position:absolute;" class="bulb2" id="bulb2" disabled="true">
@@ -172,47 +171,47 @@
                 <div class="littledot" id="ld2"></br><a href="#" class="cmdLink detach" rel="ld2">Y</a></div>
 
                 <div class="littledot" id="ld3"></br><a href="#" class="cmdLink detach" rel="ld3">B</a></div>
-                <div class="littledot" id="ld4"></br><a href="#" class="cmdLink detach" rel="ld4">N</a></div>
-                <div class="littledot" id="ld5"></br><a href="#" class="cmdLink detach" rel="ld5">Z1</a></div>
+                <div class="littledot" id="ld4"></br> <a href="#" class="cmdLink detach" rel="ld4">N</a></div>
+                <div class="littledot" id="ld5"></br> <a href="#" class="cmdLink detach" rel="ld5">Z1</a></div>
            
-                <div class="littledot" id="ld6"></br><a href="#" class="cmdLink detach" rel="ld6">Z2</a></div>
-                 <div class="littledot" id="ld7"></br><a href="#" class="cmdLink detach" rel="ld7">V1</a></div>
+                <div class="littledot" id="ld6"></br> <a href="#" class="cmdLink detach" rel="ld6">Z2</a></div>
+                 <div class="littledot" id="ld7"></br> <a href="#" class="cmdLink detach" rel="ld7">V1</a></div>
 
-                <div class="littledot" id="ld8"></br><a href="#" class="cmdLink detach" rel="ld8">M1</a></div>
+                <div class="littledot" id="ld8"></br> <a href="#" class="cmdLink detach" rel="ld8">M1</a></div>
 
-                <div class="littledot" id="ld9"></br><a href="#" class="cmdLink detach" rel="ld9">C1</a></div>
-                <div class="littledot" id="ld10"></br><a href="#" class="cmdLink detach" rel="ld10">L1</a></div>
-                <div class="littledot" id="ld11"></br><a href="#" class="cmdLink detach" rel="ld11">V2</a></div>
+                <div class="littledot" id="ld9"></br> <a href="#" class="cmdLink detach" rel="ld9">C1</a></div>
+                <div class="littledot" id="ld10"></br> <a href="#" class="cmdLink detach" rel="ld10">L1</a></div>
+                <div class="littledot" id="ld11"></br> <a href="#" class="cmdLink detach" rel="ld11">V2</a></div>
            
             
 
-                <div class="littledot" id="ld12"></br><a href="#" class="cmdLink detach" rel="ld12">M2</a></div>
+                <div class="littledot" id="ld12"></br> <a href="#" class="cmdLink detach" rel="ld12">M2</a></div>
 
-                <div class="littledot" id="ld13"></br><a href="#" class="cmdLink detach" rel="ld13">C2</a></div>
-                <div class="littledot" id="ld14"></br><a href="#" class="cmdLink detach" rel="ld14">L2</a></div>
-                <div class="littledot" id="ld15"></br><a href="#" class="cmdLink detach" rel="ld15">X1</a></div>
-                 <div class="littledot" id="ld16"></br><a href="#" class="cmdLink detach" rel="ld16">X2</a></div>
+                <div class="littledot" id="ld13"></br> <a href="#" class="cmdLink detach" rel="ld13">C2</a></div>
+                <div class="littledot" id="ld14"></br> <a href="#" class="cmdLink detach" rel="ld14">L2</a></div>
+                <div class="littledot" id="ld15"></br> <a href="#" class="cmdLink detach" rel="ld15">X1</a></div>
+                 <div class="littledot" id="ld16"></br> <a href="#" class="cmdLink detach" rel="ld16">X2</a></div>
 
-                <div class="littledot" id="ld17"></br><a href="#" class="cmdLink detach" rel="ld17">A1</a></div>
+                <div class="littledot" id="ld17"></br> <a href="#" class="cmdLink detach" rel="ld17">A1</a></div>
 
-                <div class="littledot" id="ld18"></br><a href="#" class="cmdLink detach" rel="ld18">A2</a></div>
-                <div class="littledot" id="ld19"></br><a href="#" class="cmdLink detach" rel="ld19">A3</a></div>
-                <div class="littledot" id="ld20"></br><a href="#" class="cmdLink detach" rel="ld20">X3</a></div>
+                <div class="littledot" id="ld18"></br> <a href="#" class="cmdLink detach" rel="ld18">A2</a></div>
+                <div class="littledot" id="ld19"></br> <a href="#" class="cmdLink detach" rel="ld19">A3</a></div>
+                <div class="littledot" id="ld20"></br> <a href="#" class="cmdLink detach" rel="ld20">X3</a></div>
            
             <div class="littledot" id="ld21"></br><a href="#" class="cmdLink detach" rel="ld21">X4</a></div>
 
                 <div class="littledot" id="ld22"></br><a href="#" class="cmdLink detach" rel="ld22">X5</a></div>
 
                 <div class="littledot" id="ld23"></br><a href="#" class="cmdLink detach" rel="ld23">X6</a></div>
-                <div class="littledot" id="ld24"></br><a href="#" class="cmdLink detach" rel="ld24">Y1</a></div>
-                <div class="littledot" id="ld25"></br><a href="#" class="cmdLink detach" rel="ld25">Y2</a></div>
-                 <div class="littledot" id="ld26"></br><a href="#" class="cmdLink detach" rel="ld26">Y3</a></div>
+                <div class="littledot" id="ld24"></br> <a href="#" class="cmdLink detach" rel="ld24">Y1</a></div>
+                <div class="littledot" id="ld25"></br> <a href="#" class="cmdLink detach" rel="ld25">Y2</a></div>
+                 <div class="littledot" id="ld26"></br> <a href="#" class="cmdLink detach" rel="ld26">Y3</a></div>
 
-                <div class="littledot" id="ld27"></br><a href="#" class="cmdLink detach" rel="ld27">R</a></div>
+                <div class="littledot" id="ld27"></br> <a href="#" class="cmdLink detach" rel="ld27">R</a></div>
 
-                <div class="littledot" id="ld28"></br><a href="#" class="cmdLink detach" rel="ld28">Y</a></div>
-                <div class="littledot" id="ld29"></br><a href="#" class="cmdLink detach" rel="ld29">B</a></div>
-                <div class="littledot" id="ld30"></br><a href="#" class="cmdLink detach" rel="ld30">N</a></div>
+                <div class="littledot" id="ld28"></br> <a href="#" class="cmdLink detach" rel="ld28">Y</a></div>
+                <div class="littledot" id="ld29"></br> <a href="#" class="cmdLink detach" rel="ld29">B</a></div>
+                <div class="littledot" id="ld30"></br> <a href="#" class="cmdLink detach" rel="ld30">N</a></div>
            
            
            
@@ -227,13 +226,13 @@
         <!-- /JS -->
 
     <!--  demo code -->
-    <script src="js/demo1.js"></script>
+    <script src="js/demo2.js"></script>
 
 
   <!--buttons code-->
          <input type="button" value="ADD" id="add" style="position:absolute;top:675px;left:70px;" onclick="addtotable()">
   <div class="check" id="check-button" style="position:absolute; left: 200px; top: 675px;">CHECK</div>
-        <div class="reset"  id="button" style="position:absolute; left: 350px; top: 675px;"onclick="window.location.href = 'index.html';">RESET</div>
+        <div class="reset"  id="button" style="position:absolute; left: 350px; top: 675px;"onclick="window.location.href = 'index1.html';">RESET</div>
     <input type="button" value="PRINT" id="print" style="position:absolute; left:500px;top:675px;" onclick="window.print()">
 </div>
 <div class="copyright" style="position:absolute">&#169Copyright 2022 Virtual Labs, IIT Roorkee</div>

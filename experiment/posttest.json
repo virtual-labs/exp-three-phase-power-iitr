@@ -1,39 +1,5 @@
-{
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
-}
+[{"question":"The total power P measured in Y star three-phase circuit is given by","answers":{"a":"P = 3VI cos ⁡ϕ","b":"P = √I cos ⁡ϕ","c":"P = √3VI cos ⁡ϕ","d":"P = √2VI cos⁡ ϕ"},"correctAnswer":"c"},
+{"question":"In the above question, the power in delta three-phase circuit is given by","answers":{"a":"P = 3 VI cos ⁡ϕ","b":"P = √3 VI cos ⁡ϕ","c":"P = √2 VI cos ⁡ϕ","d":"P = √3 VI sin ⁡ϕ"},"correctAnswer":"b"},
+{"question":"The dynamometer wattmeter can be used to measure","answers":{"a":"AC power only","b":"DC power only","c":"AC or DC power","d":"AC power of single-phase circuits"},"correctAnswer":"c"},
+{"question":"For a good 0.5 micro-farad paper capacitor, the ohm-meter reading should","answers":{"a":"Go quickly to 100 ohms and remain there","b":"Show low resistance momentarily and back off to a very high resistance","c":"Not move at all","d":"Show very high resistance first and then low"},"correctAnswer":"b"},
+{"question":"The change of frequency affects the circuit parameters of wattmeter connected to measure power of three-phase AC system","answers":{"a":"True","b":"False","c":"All of the above","d":"None of the above"},"correctAnswer":"b"}]
