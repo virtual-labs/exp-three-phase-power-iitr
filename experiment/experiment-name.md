@@ -1,1 +1,1 @@
-## Experiment name
+## Three phase power measurement using Two Wattmeter Method.
