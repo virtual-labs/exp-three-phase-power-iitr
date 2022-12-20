@@ -24,5 +24,3 @@ SrNo | Name | Faculty or Student | Department| Institute | Email id
 2 | Nipun Jain | Project Associate | Electrical Engineering | IIT Roorkee | nipunjain1305@gmail.com
 3 | Pragya Daksh | Project Associate | Electrical Engineering | IIT Roorkee | prgdaksh@gmail.com
 4 | Piyush Rawat | Project Associate | Electrical Engineering | IIT Roorkee | rawatpiyush72@gmail.com
-
-
