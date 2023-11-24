@@ -1,1 +1,1 @@
-## Three phase power measurement using Two Wattmeter Method.
+## Three Phase Power Measurement Using Two Wattmeter Method.
