@@ -4,7 +4,7 @@
 <b>Discipline | <b>Electrical Engineering
 :--|:--|
 <b> Lab | <b> Electrical Measurements Lab
-<b> Experiment|     <b> Three phase power measurement using (a) Single Wattmeter Method (b) Two Wattmeter Method
+<b> Experiment|     <b>7. Three phase power measurement using (a) Single Wattmeter Method (b) Two Wattmeter Method
 
 ### About the Experiment 
 

@@ -1,45 +1,39 @@
-## Post test
+## Post Test
 #### Please attempt the following questions
 
-Q1. The total power P measured in Y star three-phase circuit is given by<br>
-<br>
-A   P = 3VI cos ⁡ϕ<br>
-B   P = √I cos ⁡ϕ<br>
-<b>C   P = √3VI cos ⁡ϕ</b><br>
-D   P = √2VI cos⁡ ϕ<br>
-<br>
+Q1. The total power measured in star three-phase circuit is given by<br>
 
-Q2. In the above question, the power in delta three-phase circuit is given by<br> 
+a.   P = 3VI cos ⁡ϕ<br>
+b.   P = √I cos ⁡ϕ<br>
+c.   P = √3VI cos ⁡ϕ<br>
+d.   P = √2VI cos⁡ ϕ<br>
 
-A   P = 3 VI cos ⁡ϕ<br>
-<b>B   P = √3 VI cos ⁡ϕ</b><br>
-C   P = √2 VI cos ⁡ϕ<br>
-D   P = √3 VI sin ⁡ϕ<br>
-<br>
+Q2. For power measurement of three phase circuit by two wattmeter method, When the value of power factor is less than 0.5 lagging?<br> 
+
+a.   One of the wattmeters will read zero<br>
+b.   One of the wattmeter connections will have to be reversed<br>
+c.   Both give the same readings<br>
+d.   Pressure coil of the wattmeter will become ineffective.<br>
 
 Q3. The dynamometer wattmeter can be used to measure<br>
 
-A   AC power only<br>
-B   DC power only<br>
-<b>C   AC or DC power</b><br>
-D   AC power of single-phase circuits<br><br>
+a.   AC power only<br>
+b.   DC power only<br>
+c.   AC or DC power<br>
+d.   AC power of single-phase circuits<br>
 
+Q4.  For a good 0.5 micro-farad paper capacitor, the ohm-meter reading should-<br>
 
-Q4.  For a good 0.5 micro-farad paper capacitor, the ohm-meter reading should<br>
+a.   Go quickly to 100 ohms and remain there<br>
+b.   Show low resistance momentarily and back off to a very high resistance<br>
+c.   Not move at all<br>
+d.   Show very high resistance first and then low<br>
 
-A   Go quickly to 100 ohms and remain there<br>
-<b>B   Show low resistance momentarily and back off to a very high resistance</b><br>
-C   Not move at all<br>
-D   Show very high resistance first and then low<br><br>
+Q5. The change of frequency affects the circuit parameters of wattmeter connected to measure power of three-phase AC system-<br>
 
+a.   True<br>
+b.   False<br>
 
-Q5. The change of frequency affects the circuit parameters of wattmeter connected to measure power of three-phase AC system<br>
-
-A   True<br>
-<b>B   False</b><br>
-C   All of the above<br>
-D   None of the above<br>
-<br>
 
 
 
