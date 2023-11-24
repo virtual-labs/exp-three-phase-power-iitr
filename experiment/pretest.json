@@ -1,39 +1,5 @@
-{
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
-}
+[{"question":"Which of the following error may arise in wattmeter if it is not compensated for the errors?","answers":{"a":"Voltage coil inductance","b":"Voltage coil capacitance","c":"Eddy currents","d":"All of the above"},"correctAnswer":"d"},
+{"question":"Which of the following method is the common method of measuring three phase balanced or unbalanced power?","answers":{"a":"One wattmeter method","b":"Two wattmeter method","c":"Three wattmeter method","d":"Ammeter method"},"correctAnswer":"b"},
+{"question":"One-Wattmeter method is used to measure?","answers":{"a":"The power when load is balance in three phase circuit","b":"The power when load is unbalanced in three phase circuit","c":"(a) or (b)","d":"Single phase power with balanced load"},"correctAnswer":"a"},
+{"question":"The reactive power can be measured with wattmeter when voltage across voltage coil is adjusted to be out of phase with the current by","answers":{"a":"90°","b":"180°","c":"45°","d":"0°"},"correctAnswer":"a"},
+{"question":"Which of the following devices are required to measure three phase balance power?","answers":{"a":"One wattmeter","b":"One wattmeter and one voltage transformer of 1:1 ratio","c":"One wattmeter and two voltmeters","d":"None of the above"},"correctAnswer":"a"}]
