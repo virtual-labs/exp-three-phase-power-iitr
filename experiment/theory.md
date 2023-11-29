@@ -16,7 +16,7 @@ The main concept of two Wattmeter with 3 phase voltage is to balance the 3 phase
 
 <center>
 
-![circuit](images/ckt1.png)  
+<img src="images/ckt1.png" style="transform: rotate(2.5deg)" alt="circuit">  
 
 **Fig. 1 Three phase power measurement using Two Wattmeter**
 </center>
