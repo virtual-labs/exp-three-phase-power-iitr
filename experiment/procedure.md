@@ -1,5 +1,3 @@
-## Procedure<br>
-    
 **STEP 1 :** Make Connections as per the instructions given below:</p>
         <p><b>1.</b>&nbsp; &nbsp; <b>R, Y, B and N</b> of MCB - <b>R, Y, B and N</b> of Autotransformer.</p> 
         <p><b>2.</b>&nbsp; &nbsp; <b>Z1</b> of Voltmeter - <b>A1</b> of Autotransformer and <b>Z2</b> of Voltmeter - <b>A2</b> of Autotransformer.</p>
